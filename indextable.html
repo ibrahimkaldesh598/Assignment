@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table Page</title>
+    <style>
+     table,th,td{
+       border:1px solid black;
+       border-collapse:collapse;
+     }
+     table
+     {
+       border:3px solid black;
+       width:50%;
+       position:relative;
+       left:300px;
+       top:100px;
+    }
+     .cs
+     {
+       background-color:chartreuse;
+     }
+     .csc
+     {
+       background-color:cyan;
+     }
+     .Dee
+     {
+      background-color:gray;
+     }
+     .Ht
+     {
+      background-color:khaki;
+     }
+     #lin
+         {
+             background-color:rgb(7, 167, 28);
+             padding:20px;
+             margin:20px;
+             text-decoration:none;
+             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             position:absolute;
+             bottom:0px;
+             left:640px;
+         }
+    </style>
+  </head>
+  <body>
+      <table>
+        <tr>
+          <td></td>
+          <th>Monday</th>
+          <th colspan="2">Tuesday</th>
+          <th colspan="2">Wenesday</th>
+          <th colspan="2">Thursday</th>
+          <th>Friday</th>
+        </tr>
+        <tr>
+          <td>1:00 PM</td>
+          <td rowspan="2"style="background-color:Yellow;"><a href="" target="_blank">HTML</a></td>
+          <td colspan="2"></td>
+          <td colspan="2" rowspan="2" class="Ht">HTML</td>
+          <td colspan="2" rowspan="8"class="Ht">HTML hours<br>by Apps</td>
+          <td rowspan="2"class="Ht">HTML</td>
+        </tr>
+        <tr>
+          <td>3:00 PM</td>
+          <td colspan="2"rowspan="2" class="Dee">Deep Meeting</td>
+        </tr>
+        <tr>
+          <td>2:00 PM</td>
+          <td rowspan="3" class="cs">Css</td>
+          <td colspan="2"rowspan="3"class="cs">Css</td>
+          <td rowspan="3"class="cs">Css</td>
+        </tr>
+        <tr>
+          <td>2:00 PM</td>
+          <td colspan="2"></td>
+        </tr>
+        <tr>
+          <td>5:00 PM</td>
+          <td rowspan="3"colspan="2"class="Dee">ECE Metting</td>
+        </tr>
+        <tr>
+          <td>3:30 PM</td>
+          <td rowspan="3"class="csc">CSC205</td>
+          <td rowspan="3" colspan="2"class="csc">CSC205</td>
+          <td rowspan="3"class="csc">CSC205</td>
+        </tr>
+        <tr>
+          <td>3:30 PM</td>
+        </tr>
+        <tr>
+          <td>4:00 PM</td>
+          <td colspan="2"></td>
+        </tr>
+      </table>  
+      <a href=""style="position:absolute;bottom:405px;px;left:580px;">Click on the course for discription</a>
+      <a href="index.html" id="lin">To go back</a>
+  </body>
+</html>
